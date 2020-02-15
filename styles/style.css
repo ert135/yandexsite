@@ -1,0 +1,336 @@
+.page {
+    min-width: 1100px;
+    /* we don't know how to make mobile versions of websites yet, */
+    /* so here we've set a minimum page width */
+    max-width: 1600px;
+    /* here we've set a maximum page width */
+    margin: 0 auto;
+    /* this ensures that all content is centered on screens wider than 1600px */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    border: 2px solid red;
+    background-color:#bbb8b8;
+    padding-left: 32px;
+    /* parameters for the header section */
+}
+
+.header__title-wrapper {
+    flex-basis: 50%;
+}
+
+.logo__place_header {
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    width: 154px;
+    height: 31px;
+    z-index: 1;
+}
+
+.header__heading_title {
+    font-size: 102px;
+    font-weight: bold;
+    width: 730px;
+}
+
+.header__heading_subtitle {
+    z-index: 2;
+    margin-left: 64p;
+    margin-bottom: 30px;
+    width: 388px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.header__img_main-illustration {
+    background-image: url(../images/on_the_edge.png);
+    background-size: cover;
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 765px;
+    height: 608px;
+    z-index: 1;
+}
+
+/* here we have two examples of selectors in order to remind you how to set styles for elements */
+.header__square-pic {
+    margin-top: 64px;
+    margin-right: 0;
+    background-color: #2f80ed;
+    width: 568px;
+    height: 568px;
+    
+    
+    
+}
+
+.description {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vh;
+    min-width: 784px;
+    
+}
+
+.section__div_brief {
+    border: 2px solid green;
+    width: 175px;
+    line-height: 1.2vh;
+    font-size: 18px;
+}
+
+.section__div_main-text {
+    border: 2px solid blue;
+    line-height: 34px;
+    font-size: 24px;
+    width: 80vh;
+    
+    
+}
+
+.div__div_paragraph-1 {
+    padding-bottom: 30px;
+}
+
+.div__div_paragraph-2 {
+    padding-bottom: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.div__div_paragraph-3 {
+
+}
+
+.digits {
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+.section__heading_digits {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 60vh;
+    padding-bottom: 20px;
+    line-height: 69px;
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+.section__heading_subheading {
+    margin: auto;
+    width: 60vh;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.table {
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    justify-content: center;
+}
+
+.table_table-data {
+    border: 2px solid yellow;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.table__table-row-one {
+    margin-bottom: 60px;
+}
+
+.table-data__heading {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    margin-top: 0;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;  
+}
+
+.table-data__text {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.table-data__text_quote {
+    margin-top: 20px;
+}
+
+.feinman {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    height: 790px;
+    z-index: -1;
+    overflow: hidden; /* remove this when positioning picture of feinman */
+}
+
+.section__heading_title_feinman {
+    display: flex;
+    width: 770px;
+    justify-content: center;
+    margin: auto;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: bold;
+}
+.section__heading__subtitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.section__link_feinman {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50vh;
+    margin-right: 48px;
+}
+
+.section__image_feinman {
+    
+    width: 867px;
+    height: 637px;
+    
+}
+
+
+
+/* including elements with key-value modifiers */
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+}
+
+.kaufman {
+    border: 2px solid green;
+    display:flex;
+    flex-direction: column;
+    margin: auto 90px auto 90px;
+    padding-top: 90px;
+    overflow: hidden;
+    background-color: #1f1f1f;
+    
+}
+
+.section__heading_kaufman_theme_dark {
+    display:flex;
+    justify-content: center;
+    color: white;
+    width: 60%;
+    margin: auto;
+    padding-bottom:20px;
+    line-height: 69px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.section__heading_subtitle_theme_dark {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin:auto;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.table__theme_dark {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    justify-content: space-evenly;
+}
+
+.table__table-row-1_theme_dark {
+    display:flex;
+    padding-bottom: 80px;
+}
+
+.table__table-data_heading_theme_dark {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.table__table-data_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+    border: 2px solid red;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.section_kaufman__image_blue-triangle{
+    margin-right: -210px;
+    display: flex;
+    width: 877px;
+    height: 877px;
+}
+
+.footer {
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+    flex-basis: 711px;
+}
+
+.footer__table {
+    display: flex;
+    border: 2px solid turquoise;
+    width:90%;
+    margin: 60px auto 40px auto;
+}
+
+.logo__place_footer {
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    border: 2px solid red;
+    display: flex;
+    width: 183px;
+    height: 35px;
+}
+
+.footer_table_table-data_copyright {
+    
+}

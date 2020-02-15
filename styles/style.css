@@ -16,9 +16,13 @@
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
-    border: 2px solid red;
     background-color:#bbb8b8;
     padding-left: 32px;
+    padding-top: 22px;
+    background-repeat: no-repeat;
+    background-position: right 45px bottom;
+    background-size: 50%;
+    position: relative;
     /* parameters for the header section */
 }
 
@@ -58,18 +62,18 @@
     width: 765px;
     height: 608px;
     z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
-    margin-top: 64px;
-    margin-right: 0;
     background-color: #2f80ed;
     width: 568px;
     height: 568px;
-    
-    
-    
+    position: absolute;
+    right: 0;
 }
 
 .description {
